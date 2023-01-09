@@ -5,6 +5,7 @@
 ### 1. Create Enviroments
 
 + Windows
+
   ```
   python -m venv venv
   venv\Scripts\activate
