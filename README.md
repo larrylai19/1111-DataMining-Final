@@ -62,8 +62,8 @@
 + #### ChannelViewCount and SubscriberCount
     ![channelViewCount_subscriberCount_scatter_s=5.png](images/channelViewCount_subscriberCount_scatter_s=5.png)
     
-+ #### VideoViewCount and SubscriberCount With Annotation
++ #### VideoViewCount and SubscriberCount With Correlation
     ![videoViewCount_subscriberCount_scatter_s=5_x=0.1161y.png](images/videoViewCount_subscriberCount_scatter_s=5_x=0.1161y.png)
 
-+ #### ChannelViewCount and SubscriberCount With Annotation
++ #### ChannelViewCount and SubscriberCount With Correlation
     ![channelViewCount_subscriberCount_scatter_s=3_x=0.8619y.png](images/channelViewCount_subscriberCount_scatter_s=3_x=0.8619y.png)
