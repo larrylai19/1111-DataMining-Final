@@ -48,8 +48,22 @@
 + #### Correlation
     ![correlation.png](images/correlation.png)
     
-+ #### Correlation heatmap
++ #### Correlation Heatmap
     ![correlation_heatmap.png](images/correlation_heatmap.png)
     
-+ #### Correlation heatmap with annotation
++ #### Correlation Heatmap With Annotation
     ![correlation_heatmap_annot.png](images/correlation_heatmap_annot.png)
+
+### 3. Scatter Plot Between Two Attributes
+
++ #### VideoViewCount and SubscriberCount
+    ![videoViewCount_subscriberCount_scatter_s=5.png](images/videoViewCount_subscriberCount_scatter_s=5.png)
+
++ #### ChannelViewCount and SubscriberCount
+    ![channelViewCount_subscriberCount_scatter_s=5.png](images/channelViewCount_subscriberCount_scatter_s=5.png)
+    
++ #### VideoViewCount and SubscriberCount With Annotation
+    ![videoViewCount_subscriberCount_scatter_s=5_x=0.1161y.png](images/videoViewCount_subscriberCount_scatter_s=5_x=0.1161y.png)
+
++ #### ChannelViewCount and SubscriberCount With Annotation
+    ![channelViewCount_subscriberCount_scatter_s=3_x=0.8619y.png](images/channelViewCount_subscriberCount_scatter_s=3_x=0.8619y.png)
