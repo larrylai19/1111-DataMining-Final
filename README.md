@@ -67,3 +67,21 @@
 
 + #### ChannelViewCount and SubscriberCount With Correlation
     ![channelViewCount_subscriberCount_scatter_s=3_x=0.8619y.png](images/channelViewCount_subscriberCount_scatter_s=3_x=0.8619y.png)
+    
+
+### 4. Analysis by VideoCategory and Bar Chart
+
++ Add attribute 'videoCategory' by 'videoCategoryID'
++ Group by VideoCategory
+
++ #### SubscriberCount
+    ![subscriberCount_bar.png](images/subscriberCount_bar.png)
+
++ #### VideoCount
+    ![videoCount_bar.png](images/videoCount_bar.png)
+    
++ #### Views/Subscribers
+    ![views_subscribers_bar.png](images/views_subscribers_bar.png)
+    
++ #### SubscriberCount and VideoViewCount
+    ![subscriberCount_videoViewCount_bar_75.png](images/subscriberCount_videoViewCount_bar_75.png)
