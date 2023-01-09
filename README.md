@@ -45,4 +45,5 @@
 + Use min-max scaling to normalization
 + Calculate Pearson correlation coefficient correlations
 
-![correlation.png](images/correlation.png)
++ Correlation
+    ![correlation.png](images/correlation.png)
