@@ -47,3 +47,9 @@
 
 + #### Correlation
     ![correlation.png](images/correlation.png)
+    
++ #### Correlation heatmap
+    ![correlation_heatmap.png](images/correlation_heatmap.png)
+    
++ #### Correlation heatmap with annotation
+    ![correlation_heatmap_annot.png](images/correlation_heatmap_annot.png)
