@@ -5,8 +5,8 @@
 ### 1. Create Enviroments
 
 + Windows
-        python -m venv venv
-        venv\Scripts\activate
+    python -m venv venv
+    venv\Scripts\activate
         pip install -r requirements.txt
         jupyter lab
 
