@@ -1,8 +1,5 @@
 venv
 .ipynb_checkpoints
 */.ipynb_checkpoints
-
-YouTubeDataset_withChannelElapsed.csv
-
-test.ipynb
 .DS_Store
+YouTubeDataset_withChannelElapsed.csv
