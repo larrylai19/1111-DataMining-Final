@@ -89,7 +89,7 @@
     ![subscriberCount_videoViewCount_bar_75.png](images/subscriberCount_videoViewCount_bar_75.png)
     
 + #### SubscriberCount and VideoCommentCount
-    ![subscriberCount_videoCommentCount_bar_75.png](../imgs/Data-Mining-with-Kaggle-YouTube-Videos-and-Channels-Metadata/subscriberCount_videoCommentCount_bar_75.png)
+    ![subscriberCount_videoCommentCount_bar_75.png](images/subscriberCount_videoCommentCount_bar_75.png)
 
 
 ## Functions
