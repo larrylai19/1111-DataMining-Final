@@ -87,3 +87,9 @@
     
 + #### SubscriberCount and VideoViewCount
     ![subscriberCount_videoViewCount_bar_75.png](images/subscriberCount_videoViewCount_bar_75.png)
+
+
+## Functions
+
++ ### Draw Heatmap
+    ![subscriberCount_videoViewCount_bar_75.png](images/subscriberCount_videoViewCount_bar_75.png)
