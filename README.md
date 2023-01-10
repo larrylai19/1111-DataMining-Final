@@ -50,8 +50,8 @@
 + #### Correlation
     ![correlation.png](images/correlation.png)
     
-+ #### Correlation Heatmap
-    ![correlation_heatmap.png](images/correlation_heatmap.png)
+<!-- + #### Correlation Heatmap
+    ![correlation_heatmap.png](images/correlation_heatmap.png) -->
     
 + #### Correlation Heatmap With Annotation
     ![correlation_heatmap_annot.png](images/correlation_heatmap_annot.png)
