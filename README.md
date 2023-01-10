@@ -40,6 +40,8 @@
 + #### TimeStamp: Transfer time format to timestamp
     + 2012-01-19T18:38:28.000Z -> 1326902400
 
+![dataPreprocessing.png](images/dataPreprocessing.png)
+
 ### 2. Calculate Correlation
 
 + Use min-max scaling to normalization
