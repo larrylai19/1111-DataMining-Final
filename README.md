@@ -92,4 +92,14 @@
 ## Functions
 
 + ### Draw Heatmap
-    ![subscriberCount_videoViewCount_bar_75.png](images/subscriberCount_videoViewCount_bar_75.png)
+    ``` Python
+    def draw_heatmap(data):
+      # Use minmax to normalize (value between 0 ~ 1)
+      normalizedDF_minmax = (data - data.min()) / (data.max() - data.min())
+      normalizedDF_correlation = normalizedDF_minmax.corr()
+      plt.figure(figsize=(30, 24))
+      sns.heatmap(normalizedDF_correlation, cmap='RdBu_r', linewidths=0.5, vmin=-1, vmax=1, annot=True)
+      plt.show()
+
+    draw_heatmap(data)
+    ```
