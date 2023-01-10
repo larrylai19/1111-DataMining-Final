@@ -103,3 +103,51 @@
 
     draw_heatmap(data)
     ```
+
++ ### Draw Scatter Plot
+    ``` Python
+    def draw_scatter(data, attributeName1, attributeName2):
+      # Use minmax to normalize (value between 0 ~ 1)
+      attribute1_minmax = (data[attributeName1] - data[attributeName1].min()) / (data[attributeName1].max() - data[attributeName1].min())
+      attribute2_minmax = (data[attributeName2] - data[attributeName2].min()) / (data[attributeName2].max() - data[attributeName2].min())
+      plt.scatter(list(attribute1_minmax), list(attribute2_minmax), s=3, c='red')
+      plt.xlabel(attributeName1)
+      plt.ylabel(attributeName2)
+      plt.show()
+
+    draw_scatter(data, 'channelViewCount', 'subscriberCount')
+    ```
+
++ ### Draw Scatter With Line
+    ``` Python
+    def draw_scatter_with_line(data, attributeName1, attributeName2, x, y):
+      # Use minmax to normalize (value between 0 ~ 1)
+      attribute1_minmax = (data[attributeName1] - data[attributeName1].min()) / (data[attributeName1].max() - data[attributeName1].min())
+      attribute2_minmax = (data[attributeName2] - data[attributeName2].min()) / (data[attributeName2].max() - data[attributeName2].min())
+      plt.scatter(list(attribute1_minmax), list(attribute2_minmax), s=3, c='red')
+      plt.plot(x, y)
+      plt.xlabel(attributeName1)
+      plt.ylabel(attributeName2)
+      plt.show()
+
+    x = np.linspace(0, 1); y = x
+    draw_scatter_with_line(data, 'channelViewCount', 'subscriberCount', x, y)
+    ```
+
++ ### Draw Scatter With Correlation
+    ``` Python
+    def draw_scatter_with_correlation(data, attributeName1, attributeName2):
+      # Use minmax to normalize (value between 0 ~ 1)
+      attribute1_minmax = (data[attributeName1] - data[attributeName1].min()) / (data[attributeName1].max() - data[attributeName1].min())
+      attribute2_minmax = (data[attributeName2] - data[attributeName2].min()) / (data[attributeName2].max() - data[attributeName2].min())
+      df = pd.DataFrame({
+                  attributeName1: list(attribute1_minmax),
+                  attributeName2: list(attribute2_minmax)
+              })
+      sns.lmplot(x=attributeName1, y=attributeName2, data=df, line_kws={'color': 'red'})
+      plt.xlabel(attributeName1)
+      plt.ylabel(attributeName2)
+      plt.show()
+
+    draw_scatter_with_correlation(data, 'channelViewCount', 'subscriberCount')
+    ```
