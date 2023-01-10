@@ -58,14 +58,14 @@
 
 ### 3. Scatter Plot Between Two Attributes
 
-+ #### VideoViewCount and SubscriberCount
-    ![videoViewCount_subscriberCount_scatter_s=5.png](images/videoViewCount_subscriberCount_scatter_s=5.png)
+<!-- + #### VideoViewCount and SubscriberCount
+    ![videoViewCount_subscriberCount_scatter_s=5.png](images/videoViewCount_subscriberCount_scatter_s=5.png) -->
 
 + #### ChannelViewCount and SubscriberCount
     ![channelViewCount_subscriberCount_scatter_s=5.png](images/channelViewCount_subscriberCount_scatter_s=5.png)
     
-+ #### VideoViewCount and SubscriberCount With Correlation
-    ![videoViewCount_subscriberCount_scatter_withCorr.png](images/videoViewCount_subscriberCount_scatter_withCorr.png)
+<!-- + #### VideoViewCount and SubscriberCount With Correlation
+    ![videoViewCount_subscriberCount_scatter_withCorr.png](images/videoViewCount_subscriberCount_scatter_withCorr.png) -->
 
 + #### ChannelViewCount and SubscriberCount With Correlation
     ![channelViewCount_subscriberCount_scatter_withCorr.png](images/channelViewCount_subscriberCount_scatter_withCorr.png)
